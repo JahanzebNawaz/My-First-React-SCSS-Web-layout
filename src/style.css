@@ -1,0 +1,64 @@
+body {
+  background-color: #ff8888;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  padding: 2em;
+  font-size: 3ex;
+}
+
+section {
+  padding: 5em;
+  text-align: center;
+}
+
+h2, h3 {
+  letter-spacing: 0.1em;
+}
+
+h2 span, h3 span {
+  color: #fafafa;
+}
+
+.block {
+  border: 0.5em solid #fafafa;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.block .name {
+  color: #fafafa;
+  font-size: 1.3em;
+  -webkit-text-decoration: underline #000;
+          text-decoration: underline #000;
+}
+
+.block .title {
+  color: #1c1d1f;
+  font-size: 1em;
+}
+
+.block .box {
+  border: 0.2em dotted #fafafa;
+  padding: 1em;
+  margin: 1em;
+  background-color: #f85211;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e44343), to(#ebe1e1));
+  background-image: linear-gradient(to bottom right, #e44343, #ebe1e1);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.block .box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0.2em dotted #000;
+}
+/*# sourceMappingURL=style.css.map */
